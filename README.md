@@ -40,5 +40,22 @@ This project is structured to transform and model the Northwind dataset in BigQu
 
 - `dim_customer`: Dimension table for customer data.
 - `dim_employee`: Dimension table for employee data.
-- ... 
+- ...
+
+  ## Entity Relationship Diagrams (ERDs)
+
+Here are the Entity Relationship Diagrams for the different models:
+
+- **Conceptual ERD**:
+  ![Conceptual ERD](ERDs/ae-bootcamp-erd-conceptual.drawio.png)
+
+- **Logical ERD**:
+  ![Logical ERD](ERDs/ae-bootcamp-erd-logical.drawio.png)
+
+- **Physical ERD**:
+  ![Physical ERD](ERDs/ae-bootcamp-erd-physical.drawio.png)
+
+- **Northwind OLTP ERD**:
+  ![Northwind OLTP ERD](ERDs/northwind-oltp-erd.png)
+
 
