@@ -46,6 +46,9 @@ The company struggles to meet reporting requirements, causing the operational da
 - Introduced a staging layer for transformations and data cleansing.
 - Built dimension and fact layers followed by an OBT for optimized reporting.
 
+ **Northwind OLTP ERD**:
+  ![Northwind OLTP ERD](ERDs/northwind-oltp-erd.png)
+
 
 
 ### Directory Structure
@@ -96,8 +99,4 @@ Here are the Entity Relationship Diagrams for the different models:
 
 - **Physical ERD**:
   ![Physical ERD](ERDs/ae-bootcamp-erd-physical.drawio.png)
-
-- **Northwind OLTP ERD**:
-  ![Northwind OLTP ERD](ERDs/northwind-oltp-erd.png)
-
 
