@@ -1,0 +1,37 @@
+name: 'dbt_bootcamp'
+version: '1.0.0'
+config-version: 2
+
+
+profile: 'dbt_bootcamp'
+
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+
+target-path: "target"  
+clean-targets:   
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_bootcamp:
+    staging:
+      +enabled: true
+      +materialized: table
+      +schema: stg_northwind
+    warehouse:
+      +enabled: true
+      +materialized: table
+      +schema: dwh_northwind      
+      dim_date:
+        +materialized: view
+    analytics_obt:
+      +enabled: true
+      +materialized: table
+      +schema: obt_northwind
