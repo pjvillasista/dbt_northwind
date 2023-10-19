@@ -1,4 +1,4 @@
-# Analytics Engineering Bootcamp - dbt Project
+# Analytics Engineering - Northwind Traders Project
 
 ## Hands-on Project: Modernizing Northwind Traders' Data Architecture
 
