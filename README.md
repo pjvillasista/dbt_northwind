@@ -31,10 +31,9 @@ The company struggles to meet reporting requirements, causing the operational da
 
 #### Data Architecture and Modeling
 1. **Conceptual Model**: Design a high-level data model.
-2. **Data Flow Diagram Level 0**: Depict the flow of data through the system.
-3. **Dimensional Modeling**: Follow the four steps - Select the business process, Declare the grain, Identify the dimensions, Identify the facts.
-4. **Logical Modeling**: Including Entity Relationship Diagrams (ERDs).
-5. **Physical Design and Development**:
+2. **Dimensional Modeling**: Follow the four steps - Select the business process, Declare the grain, Identify the dimensions, Identify the facts.
+3. **Logical Modeling**: Including Entity Relationship Diagrams (ERDs).
+4. **Physical Design and Development**:
    - Create Physical Model
    - Source to Target Document
    - Setup Data Warehouse using dbt
